@@ -6,3 +6,18 @@
     margin: 0;
 }
 
+:root {
+    --contrast: #e50914;
+}
+
+.lg-cursor .lg-cursor-pointer:nth-child(2):before {
+    background-color: var(--contrast);
+}
+
+
+.lg-cursor .lg-cursor-pointer:first-child:before {
+    margin: -12px 0 0 -12px;
+    width: 24px;
+    height: 24px;
+    background: rgb(255 75 75 / 25%);
+}
