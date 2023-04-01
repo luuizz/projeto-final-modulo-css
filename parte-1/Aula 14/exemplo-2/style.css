@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to left, #3A153E, #782D65);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "caixa1 caixa1 caixa2 caixa2 caixa2"
+    "caixa1 caixa1 caixa3 caixa3 caixa5"
+    "caixa4 caixa4 caixa3 caixa3 caixa6"
+    ;
+    gap: 20px;
+}
+
+.box {
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: #349A89;
+    grid-area: caixa1;
+    width: 100%;
+    height: 450px;
+}
+
+.box-2 {
+    background-color: #4CACC1;
+    grid-area: caixa2;
+    width: 100%;
+}
+
+.box-3 {
+    background-color: #A95851;
+    grid-area: caixa3;
+    width: 100%;
+}
+
+.box-4 {
+    background-color: #C05C9F;
+    grid-area: caixa4;
+    width: 100%;
+}
+
+.box-5 {
+    background-color: #345D67;
+    grid-area: caixa5;
+    width: 100%;
+}
+
+.box-6 {
+    background-color: #706563;
+    grid-area: caixa6;
+    width: 100%;
+}

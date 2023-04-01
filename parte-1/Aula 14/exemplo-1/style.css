@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav footer"
+    ;
+
+}
+
+header {
+    grid-area: header;
+    background-color: lightcoral;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+nav {
+    grid-area: nav;
+    background-color: lightgrey;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+}
+
+main {
+    grid-area: main;
+    background-color: lightgreen;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightskyblue;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
