@@ -12,7 +12,8 @@
     box-shadow: none;
 }
 
-html, body {
+html,
+body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
@@ -147,7 +148,7 @@ header {
     z-index: 999;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -158,7 +159,7 @@ header .container .logo {
     width: 70%;
 }
 
-header .container .logo img{
+header .container .logo img {
     width: 15.25rem;
 }
 
@@ -199,11 +200,11 @@ footer .container .heading {
 
 footer .container nav>ul {
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     column-gap: 6rem;
 }
 
-footer .container nav>ul li> ul li {
+footer .container nav>ul li>ul li {
     margin-top: 2.4rem;
 }
 
@@ -264,7 +265,7 @@ footer .container .footer-end p {
     z-index: 1;
 }
 
-.s-hero .container .conteudo{
+.s-hero .container .conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -364,7 +365,7 @@ footer .container .footer-end p {
     align-items: center;
 }
 
-.s-dispositivos .container .conteudo{
+.s-dispositivos .container .conteudo {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -559,7 +560,7 @@ footer .container .footer-end p {
     opacity: 0;
     visibility: hidden;
     height: 0;
-    transition: transform .5s ease,opacity .3s ease;
+    transition: transform .5s ease, opacity .3s ease;
     transform: translateY(-1rem);
     margin-bottom: 1rem;
 }
@@ -607,13 +608,17 @@ footer .container .footer-end p {
 /* Layout responsivo */
 
 @media (max-width: 1368px) {
-    html,body {
+
+    html,
+    body {
         font-size: 55%;
     }
 }
 
 @media (max-width: 1025px) {
-    html,body {
+
+    html,
+    body {
         font-size: 45%;
     }
 
@@ -623,13 +628,17 @@ footer .container .footer-end p {
 }
 
 @media (max-width: 998px) {
-    html,body {
+
+    html,
+    body {
         font-size: 40%;
     }
 }
 
 @media (max-width: 768px) {
-    html,body {
+
+    html,
+    body {
         font-size: 50%;
     }
 
@@ -659,9 +668,10 @@ footer .container .footer-end p {
         flex-direction: column;
         align-items: center;
         margin: 4rem 0;
+        z-index: 5;
     }
 
-    .s-recursos .container .left p {
+    .subtitle {
         width: 85%;
         text-align: center;
     }
@@ -675,4 +685,86 @@ footer .container .footer-end p {
     .s-recursos .container .caixa .right .tv .video video {
         width: 58rem;
     }
+
+    .s-dispositivos .container .conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .s-dispositivos {
+        padding: 4rem 0;
+        height: 85.8rem;
+    }
+
+
+    .s-dispositivos .container .conteudo .right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .s-dispositivos .container .conteudo .left {
+        width: 100%;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .s-dispositivos .container .conteudo .left .devices .video video {
+        width: 51rem;
+    }
+
+    .s-perfis {
+        height: 90rem;
+    }
+
+    .s-perfis .container .conteudo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .s-perfis .container .conteudo .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-perfis .container .conteudo .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .s-perfis .container .conteudo .right img {
+        width: 80%;
+    }
+
+    .s-app {
+        height: 90rem;
+    }
+    
+    .s-app .container .conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .s-app .container .conteudo .right {
+        width: 100%;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-app .container .conteudo .right h2 {
+        text-align: center;
+    }
+
+    .s-app .container .conteudo .left {
+        width: 100%;
+        z-index: 1;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
 }
