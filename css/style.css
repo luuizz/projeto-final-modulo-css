@@ -771,6 +771,10 @@ footer .container .footer-end p {
         font-size: 45%;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     .container {
         padding: 0px 2rem;
         max-width: 128.6rem;
