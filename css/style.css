@@ -36,11 +36,11 @@ html, body {
 
 /* Global */
 h1 {
-    font-size: 4.8rem;
+    font-size: 6rem;
 }
 
 h2 {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     margin-bottom: 2.4rem;
 }
 
@@ -87,6 +87,10 @@ option {
     width: 100%;
     height: 1rem;
     background-color: var(--divider);
+}
+
+.subtitle {
+    font-size: 2.4rem;
 }
 
 /* Grid */
@@ -317,6 +321,7 @@ header .container .platform .login {
 
 .s-dispositivos .container .conteudo .left {
     display: flex;
+    width: 50%;
 }
 
 .s-dispositivos .container .conteudo .left .devices {
@@ -341,11 +346,37 @@ header .container .platform .login {
 }
 
 .s-dispositivos .container .conteudo .left .devices .video video {
-    width: 40rem;
+    width: 34rem;
 }
 
 
 .s-dispositivos .container .conteudo .right {
     display: flex;
     flex-direction: column;
+    width: 45%;
+}
+
+.s-perfis {
+    height: 62rem;
+    display: flex;
+    align-items: center;
+}
+
+.s-perfis .container .conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-perfis .container .conteudo .left {
+    width: 40%;
+}
+
+.s-perfis .container .conteudo .right {
+    width: 55%;
+}
+
+.s-perfis .container .conteudo .right img {
+    width: 90%;
 }
