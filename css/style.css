@@ -41,6 +41,7 @@ h1 {
 
 h2 {
     font-size: 4.2rem;
+    margin-bottom: 2.4rem;
 }
 
 h3 {
@@ -58,7 +59,7 @@ p {
     --text-color: #fff;
     --divider: #232323;
     --input-bg: #070605b0;
-    --border-color: #cacaca;
+    --border-color: #bebebe;
 }
 
 button {
@@ -146,6 +147,7 @@ header .container .platform {
     color: #fff;
     padding: 0.6rem 3.6rem;
     border-radius: 0.4rem;
+    border: 1px solid var(--border-color);
 }
 
 
@@ -271,10 +273,6 @@ header .container .platform .login {
     width: 45%;
 }
 
-.s-recursos .container .left p {
-    margin-top: 2.4rem;
-}
-
 .s-recursos .container .caixa .right {
     width: 50%;
 }
@@ -298,4 +296,56 @@ header .container .platform .login {
     position: absolute;
     top: 46%;
     left: 50%;
+}
+
+/* Seção Dispositivos */
+
+.s-dispositivos {
+    height: 60rem;
+    display: flex;
+    align-items: center;
+}
+
+.s-dispositivos .container .conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.s-dispositivos .container .conteudo .left {
+    display: flex;
+}
+
+.s-dispositivos .container .conteudo .left .devices {
+    position: relative;
+}
+
+.s-dispositivos .container .conteudo .left .devices img {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.s-dispositivos .container .conteudo .left .devices .video {
+    z-index: 1;
+    -webkit-transform: translate(-49%, -47%);
+    -moz-transform: translate(-49%, -47%);
+    -ms-transform: translate(-49%, -47%);
+    transform: translate(-49%, -75%);
+    position: absolute;
+    top: 46%;
+    left: 50%;
+}
+
+.s-dispositivos .container .conteudo .left .devices .video video {
+    width: 40rem;
+}
+
+
+.s-dispositivos .container .conteudo .right {
+    display: flex;
+    flex-direction: column;
 }
