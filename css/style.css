@@ -774,6 +774,10 @@ footer .container .footer-end p {
     h2 {
         text-align: center;
     }
+    
+    .s-hero .container .conteudo p {
+        text-align: center;
+    }
 
     .container {
         padding: 0px 2rem;
@@ -796,7 +800,15 @@ footer .container .footer-end p {
     .input-group {
         flex-wrap: wrap;
         justify-content: center;
+        width: 85%;
+    }
+
+    .s-hero .container .form-inscricao {
         width: 100%;
+    }
+
+    .input-group input {
+        width: 52.5rem;
     }
 
     .s-recursos {
