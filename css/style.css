@@ -60,6 +60,8 @@ p {
     --divider: #232323;
     --input-bg: #070605b0;
     --border-color: #bebebe;
+    --download: #0071eb;
+    --border-download: rgba(255, 255, 255, 0.2);
 }
 
 button {
@@ -379,4 +381,85 @@ header .container .platform .login {
 
 .s-perfis .container .conteudo .right img {
     width: 90%;
+}
+
+/* Seção APP */
+
+.s-app {
+    display: flex;
+    align-items: center;
+    height: 62rem;
+}
+
+.s-app .container .conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.s-app .container .conteudo .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4rem;
+    width: 50%;
+}
+
+.s-app .container .conteudo .left img {
+    width: 85%;
+}
+
+.s-app .container .conteudo .left .download {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-download);
+    border-radius: 0.8rem;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+    width: 29.5rem;
+    padding: 1rem;
+    margin-top: -13rem;
+    justify-content: space-around;
+}
+
+.s-app .container .conteudo .left .download .cover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.s-app .container .conteudo .left .download .cover img {
+    width: 4.7rem;
+}
+
+.s-app .container .conteudo .left .download .cover .heading {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.6rem;
+}
+
+.s-app .container .conteudo .left .download .cover .heading h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.s-app .container .conteudo .left .download .cover .heading h5 {
+    color: var(--download);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.s-app .container .conteudo .left .download .cover .gif {
+    background-image: url('/assets/icon-download.gif');
+    width: 4.8rem;
+    height: 6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.s-app .container .conteudo .right {
+    width: 40%;
 }
