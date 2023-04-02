@@ -765,7 +765,7 @@ footer .container .footer-end p {
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 560px) {
     html,
     body {
         font-size: 45%;
