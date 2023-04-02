@@ -766,5 +766,87 @@ footer .container .footer-end p {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    
+    html,
+    body {
+        font-size: 45%;
+    }
+
+    .container {
+        padding: 0px 2rem;
+        max-width: 128.6rem;
+    }
+
+    header .container .platform select {
+        display: none;
+    }
+
+    .s-hero .container .conteudo h1 {
+        font-size: 4.2rem;
+        width: 100%;
+    }
+
+    .s-hero .container .conteudo h3 {
+        text-align: center;
+    }
+
+    .input-group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .s-recursos {
+        height: 65.8rem;
+    }
+
+    .s-recursos .container .caixa .right {
+        width: 100%;
+    }
+
+    .s-recursos .container .caixa .right .tv .video video {
+        width: 40rem;
+    }
+
+    .s-dispositivos {
+        height: 80.8rem;
+    }
+
+    .s-dispositivos .container .conteudo .left .devices .video video {
+        width: 34rem;
+    }
+
+    .s-perfis .container .conteudo .left h2 {
+        text-align: center;
+    }
+
+    .s-perfis .container .conteudo .right img {
+        width: 100%;
+    }
+
+    .s-app .container .conteudo .left img {
+        width: 100%;
+    }
+
+    .s-app .container .conteudo .left .download {
+        width: 32.5rem;
+    }
+
+    .s-app {
+        height: 80rem;
+    }
+
+    .s-faq .container .conteudo .signup h3 {
+        text-align: center;
+        width: 72%;
+    }
+
+    footer {
+        height: 74rem;
+    }
+
+    footer .container nav>ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 6rem;
+    }
+
 }
