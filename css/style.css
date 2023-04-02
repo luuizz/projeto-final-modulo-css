@@ -62,6 +62,7 @@ p {
     --border-color: #bebebe;
     --download: #0071eb;
     --border-download: rgba(255, 255, 255, 0.2);
+    --fonts-inter: 'Inter', sans-serif;
 }
 
 a {
@@ -86,14 +87,21 @@ button {
     text-align: center;
     cursor: pointer;
     font-size: 2rem;
+    font-family: var(--fonts-inter);
 }
 
 button:hover {
     background-color: var(--contrast-hover);
 }
 
+select {
+    font-family: var(--fonts-inter);
+}
+
 option {
     color: var(--bg-color);
+    font-family: var(--fonts-inter);
+    font-family: var(--fonts-inter);
 }
 
 .divider-1 {
@@ -159,7 +167,7 @@ header .container .platform {
     gap: 3rem;
 }
 
-.platform select {
+select {
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
     padding: 0.6rem 3.6rem;
@@ -168,16 +176,47 @@ header .container .platform {
 }
 
 
-
 header .container .platform .login {
     width: 8.24rem;
-    height: 3.2rem;
+    height: 4rem;
     padding: 0.4rem 1.6rem;
     font-size: 1.6rem;
 }
 
 
 /* Footer */
+footer {
+    display: flex;
+    height: 49rem;
+    align-items: center;
+}
+
+footer .container .heading {
+    font-size: 1.6rem;
+}
+
+footer .container nav>ul {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 6rem;
+}
+
+footer .container nav>ul li> ul li {
+    margin-top: 2.4rem;
+}
+
+footer .container nav>ul li ul li a {
+    font-size: 1.6rem;
+}
+
+footer .container .footer-end {
+    margin-top: 2.4rem;
+}
+
+footer .container .footer-end p {
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+}
 
 
 /* Hero */
@@ -359,7 +398,7 @@ header .container .platform .login {
 }
 
 .s-dispositivos .container .conteudo .left .devices .video video {
-    width: 34rem;
+    width: 40rem;
 }
 
 
