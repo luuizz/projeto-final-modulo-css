@@ -765,7 +765,7 @@ footer .container .footer-end p {
     }
 }
 
-@media (max-width: 560px) {
+@media only screen and (max-width: 600px) {
     html,
     body {
         font-size: 45%;
@@ -878,5 +878,36 @@ footer .container .footer-end p {
 
     footer .container .footer-end p {
         text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .s-recursos .container .caixa .right .tv .video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .s-recursos .container .caixa .right .tv .video video {
+        width: 75%;
+    }
+
+    .s-recursos {
+        height: 82.8rem;
+    }
+
+    .s-dispositivos .container .conteudo .left .devices .video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .s-dispositivos .container .conteudo .left .devices .video video {
+        width: 62%;
+    }
+
+    .form-inscricao {
+        display: flex;
+        justify-content: center;
     }
 }
