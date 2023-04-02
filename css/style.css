@@ -849,4 +849,17 @@ footer .container .footer-end p {
         column-gap: 6rem;
     }
 
+
+    footer .container .footer-end select {
+        display: none;
+    }
+
+    footer .container .heading {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    footer .container .footer-end p {
+        text-align: center;
+    }
 }
