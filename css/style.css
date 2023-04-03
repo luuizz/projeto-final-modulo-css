@@ -907,4 +907,8 @@ footer .container .footer-end p {
         justify-content: center;
         width: 100%;
     }
+
+    .form-inscricao .input-group {
+        width: 85%;
+    }
 }
