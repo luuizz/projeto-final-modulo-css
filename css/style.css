@@ -803,10 +803,6 @@ footer .container .footer-end p {
         width: 85%;
     }
 
-    .s-hero .container .form-inscricao {
-        width: 100%;
-    }
-
     .input-group input {
         width: 52.5rem;
     }
@@ -909,5 +905,6 @@ footer .container .footer-end p {
     .form-inscricao {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
 }
