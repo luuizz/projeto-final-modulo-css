@@ -911,4 +911,22 @@ footer .container .footer-end p {
     .form-inscricao .input-group {
         width: 85%;
     }
+
+    .s-app {
+        height: 70rem;
+    }
+
+    .s-perfis {
+        height: 80rem;
+    }
+
+    .s-dispositivos {
+        height: 70.8rem;
+    }
+
+    .s-recursos {
+        height: 74.8rem;
+        display: flex;
+        align-items: center;
+    }
 }
