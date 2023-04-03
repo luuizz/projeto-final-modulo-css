@@ -909,7 +909,11 @@ footer .container .footer-end p {
     }
 
     .form-inscricao .input-group {
-        width: 85%;
+        width: 70%;
+    }
+
+    .input-group input {
+        width: 100%;
     }
 
     .s-app {
